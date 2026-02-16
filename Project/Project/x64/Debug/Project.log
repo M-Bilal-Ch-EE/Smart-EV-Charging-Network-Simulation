@@ -1,0 +1,23 @@
+﻿  AnalyticsEngine.cpp
+  Booking.cpp
+  ChargingDock.cpp
+  ChargingStation.cpp
+  EV.cpp
+  GridPower.cpp
+  Invoice.cpp
+  SolarPower.cpp
+  User.cpp
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4244:         ]
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56):
+      the template instantiation context (the oldest one first) is
+          C:\Users\hamza\Desktop\CPProject\CP_Project\Project\main.cpp(32,21):
+          see reference to function template instantiation 'std::unique_ptr<ChargingStation,std::default_delete<ChargingStation>> std::make_unique<ChargingStation,const char(&)[10],const char(&)[9],int,0>(const char (&)[10],const char (&)[9],int &&)' being compiled
+  
+  Generating Code...
+  Project.vcxproj -> C:\Users\hamza\Desktop\CPProject\CP_Project\Project\x64\Debug\Project.exe
