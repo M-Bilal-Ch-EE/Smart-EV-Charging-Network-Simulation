@@ -111,12 +111,6 @@ This allows flexible switching between energy sources without modifying core log
 ## 6. Screenshots
 
 
-Upload your report screenshots inside the `images` folder using the same names (or change names in README accordingly).
-
----
-
-### Screenshot Display Section
-
 ## 6.1 User Registration
 
 ![User Registration](images/user_registration.png)
